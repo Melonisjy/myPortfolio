@@ -39,10 +39,16 @@ main .title {
   margin-top: 20px;
 }
 main .dev-jeans img {
-  animation: spin 2s infinite;
+  animation: spin 3s linear infinite;
   margin-top: 40px;
   width: 240px;
   height: 240px;
+}
+main .dev-jeans img:hover {
+  animation-play-state: paused;
+}
+main .dev-jeans .start {
+  display: none;
 }
 main .content {
   padding-bottom: 20px;
